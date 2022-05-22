@@ -40,7 +40,7 @@ nav a:hover {
 }
 .home-title {
     color:aqua;
-    font-family: 'Brush Script MT', cursive, 'Bradley Hand', sans-serif;
+    font-family: 'Brush_Script_MT', 'Bradley Hand', cursive;
     font-size: 2em;
 }
 .book, .join {

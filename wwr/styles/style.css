@@ -40,13 +40,14 @@ nav a:hover {
 }
 .home-title {
     color:aqua;
-    font-family: 'Brush Script MT', 'Georgia', 'Arial';
+    font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
     font-size: 2em;
 }
 .book, .join {
     color:crimson;
     text-decoration: none;
     background-color:#d9c2a3;
+    font-size: 18px;
 }
 .book:hover, .join:hover {
     background-color:#d9c2a3;
@@ -59,6 +60,7 @@ nav a:hover {
 }
 .msg p {
     color:cornflowerblue;
+    font-size: .8em;
 }
 footer {
     background-color:blue;

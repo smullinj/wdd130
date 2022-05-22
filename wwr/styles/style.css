@@ -1,4 +1,4 @@
-@import url(http://www.cssfontstack.com/');
+
 
 body{
     max-width: 1600px;
@@ -40,7 +40,7 @@ nav a:hover {
 }
 .home-title {
     color:aqua;
-    font-family: 'Brush Script M7', 'Papyrus', 'Impact,';
+    font-family: 'Brush Script MT', 'Georgia', 'Arial';
     font-size: 2em;
 }
 .book, .join {

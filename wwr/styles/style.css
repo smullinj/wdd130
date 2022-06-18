@@ -64,12 +64,19 @@ header {
 }
 header h1 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: blue;
+    color: white;
     text-align: center;
 }
 header p {
     text-align: center;
     margin: 0;
+    color: white;
+}
+.sub_home-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 100px;
+
 }
 nav {
     display: flex;
@@ -153,8 +160,11 @@ h2 {
 footer .social img {
     padding-top: 15px;
 }
-.river-card, .camping-card, .rapids-card {
-    margin: 200px 0;
+.rivers-card, .camping-card, .rapids-card {
+    margin: 100px;
+}
+.sub_card-img {
+    border: 10px solid cornflowerblue;
 }
 .card-img {
     border: 10px solid #d9c2a3;

@@ -47,11 +47,11 @@ main section{
     height: 725px;
     background-color:bisque;
 }
-#sub-logo {
-    background-color: purple;
+.sub-logo {
+    background-color: black;
 }
 body {
-    background-color: #fcfbfb;
+    background-color: gainsboro;
     font-family: Raleway, Arial, sans-serif;
     font-size: 22px;
     margin: 0;

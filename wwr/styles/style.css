@@ -47,7 +47,7 @@ main section{
     height: 725px;
     background-color:bisque;
 }
-.sub-logo {
+#sub-logo {
     background-color: black;
 }
 body {
@@ -58,14 +58,16 @@ body {
     padding: 0;
 }
 header {
-    background-color:rgba(20,30,13, .7);
+    background-color: darkgrey;
     display: grid;
-    grid-template-columns: 150px auto;
+    grid-template-columns: 125px auto;
 }
 header h1 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: white;
     text-align: center;
+    font-size: 100px;
+    color: cornflowerblue;
 }
 header p {
     text-align: center;
@@ -111,7 +113,7 @@ nav a {
     background-color:#d9c2a3;
 }
 .msg {
-    background-color: #6f7364;
+    background-color: gold;
     line-height: 1.5em;
     padding: 35px;
     grid-column: 6/10;

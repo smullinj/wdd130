@@ -1,0 +1,11 @@
+@import ('font-family')
+
+body{
+    max-width: 1600px;
+    margin: 0 auto;
+    text-align: center;
+header {
+    background-color: #396E94;
+    display: grid;
+    grid-template-columns: 125px auto;
+}

@@ -6,13 +6,20 @@ body{
     text-align: center;
 }
 #content {
-    margin: 0 auto;
-    max-width: 1600px;
+    display: grid;
+    grid-template-columns: 50px 50px 50px 50px;
+    grid-template-rows: auto;
+    grid-template-areas: 
+      "header header header header"
+      "main main . sidebar"
+      "footer footer footer footer";
 }
 header {
     background-color: #396E94;
     display: grid;
-    grid-template-columns: 125px auto;
+    grid-area: header;
+
+    
 }
 header h1 {
     font-family: 'Lobster', 'Arial Narrow', Arial, sans-serif;
@@ -20,12 +27,14 @@ header h1 {
     text-align: center;
     font-size: 100px;
     color: white;
+    grid-area: header;
 }
 nav a {
     text-align: center;
     color:aquamarine;
     text-decoration: none;
     padding: 35px;
+    margin-right: auto;
 }
 nav {
     display: flex;
@@ -41,10 +50,17 @@ nav a {
     text-align: center;
     padding: 35px;
 }
-#logo-link {
+.logo-link {
     padding-top: 5px;
     justify-self: center;
     align-self: center;
+}
+.logo {
+    background-color:#6B7FD7;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: row1-start;
+    grid-row-end: 2;
 }
 footer {
     background-color:#396e94;
@@ -53,6 +69,7 @@ footer {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    grid-area: footer;
 }
 footer h3 {
     color:white;
@@ -67,16 +84,17 @@ footer a:hover {
 }
 .home-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr;
     margin-top: 100px;
     margin-bottom: 100px;
 }
 #home-img {
+    grid-area: main;
     border: 10px solid #6B7FD7;
     transition: transform .5s;
     box-shadow: 5px 5px 10px #6f7364;
 }
 .msg {
+    grid-area: sidebar;
     background-color: #6B7FD7;
     line-height: 1.5em;
     padding: 35px;
@@ -85,4 +103,11 @@ footer a:hover {
 .msg h2 {
     color: #b3001b;
     font-size: 100px;
+}
+.what_is-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    margin-top: 100px;
+
 }

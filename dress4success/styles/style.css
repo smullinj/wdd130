@@ -127,3 +127,9 @@ footer a:hover {
     border: 10px solid #6B7FD7;
     size-adjust: 50%;
 }
+.how_msg h1 {
+    font-size: 50px;
+}
+.how_msg {
+    background-color: #6B7FD7;
+}

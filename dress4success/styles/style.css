@@ -13,13 +13,17 @@ body{
 header {
     background-color: #396E94;
     display: grid;
-    grid-template-columns: 125px auto;    
+    grid-template-columns: 125px auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;    
 }
 header h1 {
     font-family: 'Lobster', 'Arial Narrow', Arial, sans-serif;
     color: #6B7FD7;
     text-align: center;
-    font-size: 100px;    
+    font-size: 150px; 
+    margin-top: auto;   
 }
 nav a {
     text-align: center;
@@ -53,6 +57,7 @@ nav a {
     grid-column-end: 3;
     grid-row-start: row1-start;
     grid-row-end: 2;
+    margin: 50px;
 }
 footer {
     background-color: #396E94;
@@ -100,20 +105,25 @@ footer a:hover {
     margin-top: 100px;
 }
 .what-image {
-    display: grid;
-    grid-column-start: 1;
-    grid-column-end: 2;
-    align-content: center;
+    border: 10px solid #6B7FD7;
 }
 .generations-image {
     display: grid;
     grid-column-start: 2;
     grid-column-end: 3;
-    align-content: center
+    align-content: center;
+    border: 10px solid #6B7FD7
 }
 .what-msg {
     display: grid;
     grid-column-start: 2;
     grid-column-end: 3;
     align-content: center;
+}
+.how_gen_img {
+    border: 10px solid #6B7FD7;
+}
+.how_root_img {
+    border: 10px solid #6B7FD7;
+    size-adjust: 50%;
 }

@@ -52,7 +52,7 @@ nav a {
 .button-box{
     text-align: center;
 }
-button-box:hover {
+.button-box:hover {
     background-color: #b3001b;
     color: white;
 }
